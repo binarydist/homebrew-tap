@@ -8,4 +8,17 @@ cask :v1 => 'alfred26-crack-tool' do
   license :unknown
 
   app 'Alfred 2 2.x [SP].app'
+
+  caveats <<-EOS.undent
+    USAGE:
+      1. run `Alfred 2 2.x [SP].app`
+      2. drag installed `Alfred 2.app` from your `Application` folder into `Alfred 2 2.x [SP].app` running instance
+      3. restart `Alfred 2.app`
+
+    NOTE: 
+      * This crack tool works for Alfred version 2.5 and above.
+      * If you can, it's best to first close `Alfred 2.app` running instance and disconnect from the internet.
+      * If you install `Alfred 2.app` through `brew cask`, `Alfred 2.app` should locate in your user's `Application` folder.
+  EOS
+
 end
