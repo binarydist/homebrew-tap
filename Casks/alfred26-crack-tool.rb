@@ -1,5 +1,5 @@
 cask :v1 => 'alfred26-crack-tool' do
-  version :latest
+  version 'v1.3.2'
   sha256 '299d7476f70fc16881cc157d68479207d52aac2ea025a87d39419517159f8c88'
 
   url "https://raw.githubusercontent.com/binarydist/macbinary/master/Binary/Alfred/Crack/Alfred.Crack.2.x(Above.2.5).zip"
